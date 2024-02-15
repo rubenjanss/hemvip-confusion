@@ -23,11 +23,6 @@ Currently, it is required to clone this repository to get started.
 * Saves data to mongodb
 * Allows for showing a questionannaire or custom html content as pages
 
-## Features (GENEA 2022 Branch)
-
-* Pairwise video testing (see doc/experimenter.md)
-* Attention checks with automatic failure detection
-
 ## Supported Browsers
 
  * Google Chrome, Firefox on Windows, Mac and Linux
@@ -40,7 +35,7 @@ You can use docker to set up HEMVIP quickly. Just run
 To run the container use `docker-compose -f docker-compose.yml up`. We configured the docker image so that the `configs`  folder is mounted inside the container so that you can modify it on the fly.
 
 In order to assess the results that are stored in the MongoDB, you need to either use the `docker-compose_dev.yml` file or add the relevant ports to the original file.
-This way, you can access the database and export the experimental results. 
+This way, you can access the database and export the experimental results.
 
 #### Note for Docker on Windows
 
