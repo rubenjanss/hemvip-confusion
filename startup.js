@@ -75,12 +75,18 @@ function addPagesToPageManager(_pageManager, _pages) {
       } else if (pageConfig.type == "video") {
         var videoPage = new VideoPage(_pageManager, pageTemplateRenderer, session, config, pageConfig, errorHandler, config.language);
         _pageManager.addPage(videoPage);
+      } else if (pageConfig.type == "videopc") {
+        var videoPCPage = new VideoPC(_pageManager, pageTemplateRenderer, session, config, pageConfig, errorHandler, config.language);
+        _pageManager.addPage(videoPCPage);
+      } else if (pageConfig.type == "videopq") {
+        var videoPQPage = new VideoPQ(_pageManager, pageTemplateRenderer, session, config, pageConfig, errorHandler, config.language);
+        _pageManager.addPage(videoPQPage);
       } else if (pageConfig.type == "finish") {
         var finishPage = new FinishPage(_pageManager, session, dataSender, pageConfig, config.language);
         _pageManager.addPage(finishPage);
       } else {
 
-        errorHandler.sendError("Type not specified.");
+        errorHandler.sendError("Type not specified help.");
 
       }
     }
@@ -105,7 +111,7 @@ function startup(config) {
   }
 
   if ($(window).width() < 1100) {
-    errorHandler.sendError("Please use a computer for this experiment.");
+    errorHandler.sendError("Please use a computer for this experiment. If you’re already using a computer, please maximize your internet browser and enter the page again. If you still see this message, your environment is not adequate for this task; please return the task. Sorry for your inconvenience.");
   }
 
   if (navigator.appName == 'Microsoft Internet Explorer') {

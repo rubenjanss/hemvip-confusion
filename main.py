@@ -53,7 +53,7 @@ def fail(user_id=Form(...), test_id=Form(...), sessionJSON=Form(...)):
     data["date"] = ended_date
     db.fail_responses.insert_one(data)
 
-    if db.fail_responses.count_documents({"userId": user_id}) > 1:
+    if db.fail_responses.count_documents({"userId": user_id}) > 0:
         db.status.update(
             {"userId": user_id, "testId": test_id},
             {"$set": {"status": "FAILED", "ended": datetime.now()}},
@@ -85,6 +85,29 @@ def partial(
         "page_id": page_id,
         "interaction": interaction,
         "navigator": navigator,
+    }
+    connect_to_db().partial_responses.insert_one(data)
+    return {}
+
+@app.post("/partial_questionnaire")
+def partial_questionnaire(
+    ratings=Form(...),
+    user_id=Form(...),
+    test_id=Form(...),
+    page_id=Form(...),
+    interaction=Form(...),
+    navigator=Form(...),
+    questionnaire=Form(...)
+):
+    data = {
+        "modified": datetime.now(),
+        "ratings": ratings,
+        "user_id": user_id,
+        "test_id": test_id,
+        "page_id": page_id,
+        "interaction": interaction,
+        "navigator": navigator,
+        "questionnaire": questionnaire,
     }
     connect_to_db().partial_responses.insert_one(data)
     return {}

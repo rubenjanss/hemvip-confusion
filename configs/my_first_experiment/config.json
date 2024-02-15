@@ -1,0 +1,252 @@
+{
+    "testname": "Experiment",
+    "stopOnErrors": true,
+    "remoteService": "/save",
+    "pages": [
+        {
+          "type": "generic",
+          "id" : "first_page",
+          "name" : "Name of the first page, used as heading on the page.",
+          "content" : "<strong>Content of the page</strong>, usage of HTML tags allowed."
+        },
+        {
+          "type": "videopq",
+          "id" : "subject_x",
+          "name" : "Page 1 of Y",
+          "content" : "Rate the videos shown below",
+          "question" : "How human-like was the agent in this video?",
+          "stimuli": [
+            [
+              "C1",
+              "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
+            ]         
+          ],
+          "videoUrl" : "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_3_merged.mp4",
+          "questionnaire": [
+            {
+                "type": "number",
+                "label": "*What's your age in years?",
+                "name": "age",
+                "min": 0,
+                "max": 100,
+                "default": 0
+            },
+            {
+                "type": "options",
+                "name": "gender",
+                "label": "*How would you identify yourself (gender)?",
+                "response": [
+                    {
+                        "value": "female",
+                        "label": "Female"
+                    },
+                    {
+                        "value": "male",
+                        "label": "Male"
+                    },
+                    {
+                        "value": "other",
+                        "label": "Other"
+                    }
+                ]
+            },
+            {
+                "type": "text",
+                "label": "*What's your nationality?",
+                "name": "nationality"
+            },
+            {
+                "type": "likert",
+                "label": "Do you think the robot said something weird based on the reaction of the user?",
+                "name": "video_games",
+                "response": [
+                    {
+                        "value": "1",
+                        "label": "1 - Not at all"
+                    },
+                    {
+                        "value": "2",
+                        "label": "2"
+                    },
+                    {
+                        "value": "3",
+                        "label": "3 - Unsure"
+                    },
+                    {
+                        "value": "4",
+                        "label": "4"
+                    },
+                    {
+                        "value": "5",
+                        "label": "5 - Certainly"
+                    }
+                ]
+            },
+            {
+                "type": "long_text",
+                "label": "How do you feel today about yourself and the state of the world?",
+                "name": "feeling"
+            }
+           ]
+          },
+          {
+            "type": "videopq",
+            "id" : "subject_y",
+            "name" : "Page 2 of Y",
+            "content" : "Which from the two videos is the best?",
+            "question" : "Which from the two videos is the best?",
+            "stimuli": [
+              [
+                "C2",
+                "https://link.to.stimuli"
+              ]     
+            ]  ,
+            "videoUrl" : "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_3_merged.mp4",
+          "questionnaire": [
+            {
+                "type": "number",
+                "label": "*What's your age in years?",
+                "name": "age",
+                "min": 0,
+                "max": 100,
+                "default": 0
+            },
+            {
+                "type": "options",
+                "name": "gender",
+                "label": "*How would you identify yourself (gender)?",
+                "response": [
+                    {
+                        "value": "female",
+                        "label": "Female"
+                    },
+                    {
+                        "value": "male",
+                        "label": "Male"
+                    },
+                    {
+                        "value": "other",
+                        "label": "Other"
+                    }
+                ]
+            },
+            {
+                "type": "text",
+                "label": "*What's your nationality?",
+                "name": "nationality"
+            },
+            {
+                "type": "likert",
+                "label": "Do you think the robot said something weird based on the reaction of the user?",
+                "name": "video_games",
+                "response": [
+                    {
+                        "value": "1",
+                        "label": "1 - Not at all"
+                    },
+                    {
+                        "value": "2",
+                        "label": "2"
+                    },
+                    {
+                        "value": "3",
+                        "label": "3 - Unsure"
+                    },
+                    {
+                        "value": "4",
+                        "label": "4"
+                    },
+                    {
+                        "value": "5",
+                        "label": "5 - Certainly"
+                    }
+                ]
+            },
+            {
+                "type": "long_text",
+                "label": "How do you feel today about yourself and the state of the world?",
+                "name": "feeling"
+            }
+           ]     
+            },
+            {
+              "type": "finish",
+              "name" : "Thank you",
+              "content" : "Thank You!",
+              "showResults": false,
+              "writeResults": true,
+              "questionnaire": [
+                 {
+                     "type": "number",
+                     "label": "*What's your age in years?",
+                     "name": "age",
+                     "min": 0,
+                     "max": 100,
+                     "default": 0
+                 },
+                 {
+                     "type": "options",
+                     "name": "gender",
+                     "label": "*How would you identify yourself (gender)?",
+                     "response": [
+                         {
+                             "value": "female",
+                             "label": "Female"
+                         },
+                         {
+                             "value": "male",
+                             "label": "Male"
+                         },
+                         {
+                             "value": "other",
+                             "label": "Other"
+                         }
+                     ]
+                 },
+                 {
+                     "type": "text",
+                     "label": "*What's your nationality?",
+                     "name": "nationality"
+                 },
+                 {
+                     "type": "likert",
+                     "label": "How skilled are you with computers?",
+                     "name": "video_games",
+                     "response": [
+                         {
+                             "value": "1",
+                             "label": "1 - Not at all"
+                         },
+                         {
+                             "value": "2",
+                             "label": "2"
+                         },
+
+                         {
+                             "value": "4",
+                             "label": "4 - Moderately"
+                         },
+                         {
+                             "value": "5",
+                             "label": "5"
+                         },
+                         {
+                             "value": "6",
+                             "label": "6"
+                         },
+                         {
+                             "value": "7",
+                             "label": "7 - Extremely"
+                         }
+                     ]
+                 },
+                 {
+                     "type": "long_text",
+                     "label": "How do you feel today about yourself and the state of the world?",
+                     "name": "feeling"
+                 }
+                ]
+            }
+    ],
+    "remoteFailService": "/fail"
+}

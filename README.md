@@ -9,7 +9,8 @@ Stimuli tests with videos are often used in the field of non verbal behavior gen
 This tool currently works with [Prolific](https://prolific.co/) but should be easy to adapt to other platforms or run as stand-alone. Read more about the prolific settings in the configuration section.
 
 ### GENEA 2022 Branch
-Currently, this repository contains two branches. The master branch is the official HEMVIP release repository. For the GENEA 2022 challenge, some changes (see features) have been made to address issues with pairwise testing and rating. The GENEA 2022 branch has been tested and used for the challenge, and comes with the same license. 
+
+Currently, this repository contains two branches. The master branch is the official HEMVIP release repository. For the GENEA 2022 challenge, some changes (see features) have been made to address issues with pairwise testing and rating. The GENEA 2022 branch has been tested and used for the challenge, and comes with the same license.
 
 ### Download
 
@@ -19,12 +20,8 @@ Currently, it is required to clone this repository to get started.
 
 * Ability to test with videos, and include attention checks
 * Handles rejections based on attention checks
-* Saves data to MongoDB
-* Allows for showing a questionnaire or custom HTML content as pages
-
-## Features (GENEA 2022 Branch)
-* Pairwise video testing (see doc/experimenters.md for more info)
-* Attention checks with automatic failure detection and redirection to Prolific
+* Saves data to mongodb
+* Allows for showing a questionannaire or custom html content as pages
 
 ## Supported Browsers
 
