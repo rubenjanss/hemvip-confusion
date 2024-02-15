@@ -89,6 +89,29 @@ def partial(
     connect_to_db().partial_responses.insert_one(data)
     return {}
 
+@app.post("/partial_questionnaire")
+def partial_questionnaire(
+    ratings=Form(...),
+    user_id=Form(...),
+    test_id=Form(...),
+    page_id=Form(...),
+    interaction=Form(...),
+    navigator=Form(...),
+    questionnaire=Form(...)
+):
+    data = {
+        "modified": datetime.now(),
+        "ratings": ratings,
+        "user_id": user_id,
+        "test_id": test_id,
+        "page_id": page_id,
+        "interaction": interaction,
+        "navigator": navigator,
+        "questionnaire": questionnaire,
+    }
+    connect_to_db().partial_responses.insert_one(data)
+    return {}
+
 
 @app.post("/save", response_class=PlainTextResponse)
 def save(sessionJSON=Form(...)):
