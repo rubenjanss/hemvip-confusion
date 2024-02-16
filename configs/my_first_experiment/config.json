@@ -97,7 +97,7 @@
             "question" : "Which from the two videos is the best?",
             "stimuli": [
               [
-                "C2",
+                "C1",
                 "https://link.to.stimuli"
               ]     
             ]  ,

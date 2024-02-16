@@ -172,3 +172,7 @@ def index(
             "Sorry, it seems like you have already done this experiment"
         )
     return FileResponse("index.html")
+
+@app.get("/version", response_class=PlainTextResponse)
+def version():
+    return PlainTextResponse("v0.0")
