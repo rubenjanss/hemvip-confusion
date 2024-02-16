@@ -43,6 +43,10 @@ def configs(test_id: str, user_id: str):
     data["testId"] = test_id
     return data
 
+@app.get("/data/{folder_id}/{video_id}")
+def data(folder_id: str, video_id: str):
+    return data FileResponse("/data/"+folder_id+"/"+video_id)
+
 
 @app.post("/fail")
 def fail(user_id=Form(...), test_id=Form(...), sessionJSON=Form(...)):
@@ -175,4 +179,4 @@ def index(
 
 @app.get("/version", response_class=PlainTextResponse)
 def version():
-    return PlainTextResponse("v0.1")
+    return PlainTextResponse("v0.2")
