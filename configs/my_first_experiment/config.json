@@ -6,15 +6,15 @@
         {
           "type": "generic",
           "id" : "first_page",
-          "name" : "Name of the first page, used as heading on the page.",
-          "content" : "<strong>Content of the page</strong>, usage of HTML tags allowed."
+          "name" : "Uitleg",
+          "content" : "Hier komt een uitleg over de opdracht."
         },
         {
           "type": "videopq",
           "id" : "subject_x",
           "name" : "Page 1 of Y",
-          "content" : "Rate the videos shown below",
-          "question" : "How human-like was the agent in this video?",
+          "content" : "Antwoord de onderstaande vragen over deze video.",
+          "question" : "",
           "stimuli": [
             [
               "C1",
@@ -24,45 +24,13 @@
           "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_1_merged.mp4",
           "questionnaire": [
             {
-                "type": "number",
-                "label": "*What's your age in years?",
-                "name": "age",
-                "min": 0,
-                "max": 100,
-                "default": 0
-            },
-            {
-                "type": "options",
-                "name": "gender",
-                "label": "*How would you identify yourself (gender)?",
-                "response": [
-                    {
-                        "value": "female",
-                        "label": "Female"
-                    },
-                    {
-                        "value": "male",
-                        "label": "Male"
-                    },
-                    {
-                        "value": "other",
-                        "label": "Other"
-                    }
-                ]
-            },
-            {
-                "type": "text",
-                "label": "*What's your nationality?",
-                "name": "nationality"
-            },
-            {
                 "type": "likert",
-                "label": "Do you think the robot said something weird based on the reaction of the user?",
-                "name": "video_games",
+                "label": "Denk je, op basis van de reacties van de persoon in beeld, dat er iets vreemds gezegd werd?",
+                "name": "communication_breakdown",
                 "response": [
                     {
                         "value": "1",
-                        "label": "1 - Not at all"
+                        "label": "1 - Helemaal niet"
                     },
                     {
                         "value": "2",
@@ -70,7 +38,7 @@
                     },
                     {
                         "value": "3",
-                        "label": "3 - Unsure"
+                        "label": "3 - Noch niet, noch wel"
                     },
                     {
                         "value": "4",
@@ -78,14 +46,126 @@
                     },
                     {
                         "value": "5",
-                        "label": "5 - Certainly"
+                        "label": "5 - Helemaal wel"
                     }
                 ]
             },
             {
-                "type": "long_text",
-                "label": "How do you feel today about yourself and the state of the world?",
-                "name": "feeling"
+                "type": "likert",
+                "label": "Hoe zeker ben je hiervan?",
+                "name": "certainty",
+                "response": [
+                    {
+                        "value": "1",
+                        "label": "1 - Absoluut niet zeker"
+                    },
+                    {
+                        "value": "2",
+                        "label": "2"
+                    },
+                    {
+                        "value": "3",
+                        "label": "3 - Niet zeker, niet onzeker"
+                    },
+                    {
+                        "value": "4",
+                        "label": "4"
+                    },
+                    {
+                        "value": "5",
+                        "label": "5 - Absoluut zeker"
+                    }
+                ]
+            },
+            {
+                "type": "likert",
+                "label": "Lachte de persoon in beeld?",
+                "name": "laugh",
+                "response": [
+                    {
+                        "value": "1",
+                        "label": "Ja"
+                    },
+                    {
+                        "value": "2",
+                        "label": "Nee"
+                    }
+                ]
+            },
+            {
+                "type": "likert",
+                "label": "Fronste de persoon in beeld?",
+                "name": "frown",
+                "response": [
+                    {
+                        "value": "1",
+                        "label": "Ja"
+                    },
+                    {
+                        "value": "2",
+                        "label": "Nee"
+                    }
+                ]
+            },
+            {
+                "type": "likert",
+                "label": "Keek de persoon in beeld verward?",
+                "name": "confusion",
+                "response": [
+                    {
+                        "value": "1",
+                        "label": "Ja"
+                    },
+                    {
+                        "value": "2",
+                        "label": "Nee"
+                    }
+                ]
+            },
+            {
+                "type": "likert",
+                "label": "Keek de persoon in beeld gefrustreerd?",
+                "name": "frustration",
+                "response": [
+                    {
+                        "value": "1",
+                        "label": "Ja"
+                    },
+                    {
+                        "value": "2",
+                        "label": "Nee"
+                    }
+                ]
+            },
+            {
+                "type": "likert",
+                "label": "Keek de persoon in beeld verbaasd?",
+                "name": "surprise",
+                "response": [
+                    {
+                        "value": "1",
+                        "label": "Ja"
+                    },
+                    {
+                        "value": "2",
+                        "label": "Nee"
+                    }
+                ]
+            },
+            {
+                "type": "likert",
+                "label": "Keek de persoon in beeld weg?",
+                "name": "lookaway",
+                "response": [
+                    {
+                        "value": "1",
+                        "label": "Ja"
+                    },
+                    {
+                        "value": "2",
+                        "label": "Nee"
+                    }
+                ]
             }
            ]
           },
