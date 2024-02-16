@@ -21,7 +21,7 @@
               "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
             ]         
           ],
-          "videoUrl" : "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_3_merged.mp4",
+          "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_1_merged.mp4",
           "questionnaire": [
             {
                 "type": "number",
