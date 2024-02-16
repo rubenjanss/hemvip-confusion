@@ -286,6 +286,21 @@
         },
         {
             "type": "likert",
+            "label": "Denk je dat de persoon in beeld wou tonen aan hun gesprekspartner wat ze vonden van wat die net zei?",
+            "name": "communicative",
+            "response": [
+                {
+                    "value": "1",
+                    "label": "Ja"
+                },
+                {
+                    "value": "2",
+                    "label": "Nee"
+                }
+            ]
+        },
+        {
+            "type": "likert",
             "label": "Lachte de persoon in beeld?",
             "name": "laugh",
             "response": [
