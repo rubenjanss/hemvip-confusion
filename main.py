@@ -45,7 +45,7 @@ def configs(test_id: str, user_id: str):
 
 @app.get("/data/{folder_id}/{video_id}")
 def data(folder_id: str, video_id: str):
-    return data FileResponse("/data/"+folder_id+"/"+video_id)
+    return data FileResponse("/data/videos/"+folder_id+"/"+video_id)
 
 
 @app.post("/fail")
