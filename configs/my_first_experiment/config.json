@@ -21,312 +21,358 @@
               "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
             ]         
           ],
-          "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_1_merged.mp4",
-          "questionnaire": [
-            {
-                "type": "likert",
-                "label": "Denk je, op basis van de reacties van de persoon in beeld, dat er iets vreemds gezegd werd?",
-                "name": "communication_breakdown",
-                "response": [
-                    {
-                        "value": "1",
-                        "label": "1 - Helemaal niet"
-                    },
-                    {
-                        "value": "2",
-                        "label": "2"
-                    },
-                    {
-                        "value": "3",
-                        "label": "3 - Noch niet, noch wel"
-                    },
-                    {
-                        "value": "4",
-                        "label": "4"
-                    },
-                    {
-                        "value": "5",
-                        "label": "5 - Helemaal wel"
-                    }
-                ]
-            },
-            {
-                "type": "likert",
-                "label": "Hoe zeker ben je hiervan?",
-                "name": "certainty",
-                "response": [
-                    {
-                        "value": "1",
-                        "label": "1 - Absoluut niet zeker"
-                    },
-                    {
-                        "value": "2",
-                        "label": "2"
-                    },
-                    {
-                        "value": "3",
-                        "label": "3 - Niet zeker, niet onzeker"
-                    },
-                    {
-                        "value": "4",
-                        "label": "4"
-                    },
-                    {
-                        "value": "5",
-                        "label": "5 - Absoluut zeker"
-                    }
-                ]
-            },
-            {
-                "type": "likert",
-                "label": "Lachte de persoon in beeld?",
-                "name": "laugh",
-                "response": [
-                    {
-                        "value": "1",
-                        "label": "Ja"
-                    },
-                    {
-                        "value": "2",
-                        "label": "Nee"
-                    }
-                ]
-            },
-            {
-                "type": "likert",
-                "label": "Fronste de persoon in beeld?",
-                "name": "frown",
-                "response": [
-                    {
-                        "value": "1",
-                        "label": "Ja"
-                    },
-                    {
-                        "value": "2",
-                        "label": "Nee"
-                    }
-                ]
-            },
-            {
-                "type": "likert",
-                "label": "Keek de persoon in beeld verward?",
-                "name": "confusion",
-                "response": [
-                    {
-                        "value": "1",
-                        "label": "Ja"
-                    },
-                    {
-                        "value": "2",
-                        "label": "Nee"
-                    }
-                ]
-            },
-            {
-                "type": "likert",
-                "label": "Keek de persoon in beeld gefrustreerd?",
-                "name": "frustration",
-                "response": [
-                    {
-                        "value": "1",
-                        "label": "Ja"
-                    },
-                    {
-                        "value": "2",
-                        "label": "Nee"
-                    }
-                ]
-            },
-            {
-                "type": "likert",
-                "label": "Keek de persoon in beeld verbaasd?",
-                "name": "surprise",
-                "response": [
-                    {
-                        "value": "1",
-                        "label": "Ja"
-                    },
-                    {
-                        "value": "2",
-                        "label": "Nee"
-                    }
-                ]
-            },
-            {
-                "type": "likert",
-                "label": "Keek de persoon in beeld weg?",
-                "name": "lookaway",
-                "response": [
-                    {
-                        "value": "1",
-                        "label": "Ja"
-                    },
-                    {
-                        "value": "2",
-                        "label": "Nee"
-                    }
-                ]
-            }
-           ]
-          },
-          {
+          "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_1_merged.mp4"
+        },
+        {
             "type": "videopq",
-            "id" : "subject_y",
+            "id" : "subject_x",
             "name" : "Page 2 of Y",
-            "content" : "Which from the two videos is the best?",
-            "question" : "Which from the two videos is the best?",
+            "content" : "Antwoord de onderstaande vragen over deze video.",
+            "question" : "",
             "stimuli": [
               [
                 "C1",
-                "https://link.to.stimuli"
-              ]     
-            ]  ,
-            "videoUrl" : "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_3_merged.mp4",
-          "questionnaire": [
-            {
-                "type": "number",
-                "label": "*What's your age in years?",
-                "name": "age",
-                "min": 0,
-                "max": 100,
-                "default": 0
-            },
-            {
-                "type": "options",
-                "name": "gender",
-                "label": "*How would you identify yourself (gender)?",
-                "response": [
-                    {
-                        "value": "female",
-                        "label": "Female"
-                    },
-                    {
-                        "value": "male",
-                        "label": "Male"
-                    },
-                    {
-                        "value": "other",
-                        "label": "Other"
-                    }
-                ]
-            },
-            {
-                "type": "text",
-                "label": "*What's your nationality?",
-                "name": "nationality"
-            },
-            {
-                "type": "likert",
-                "label": "Do you think the robot said something weird based on the reaction of the user?",
-                "name": "video_games",
-                "response": [
-                    {
-                        "value": "1",
-                        "label": "1 - Not at all"
-                    },
-                    {
-                        "value": "2",
-                        "label": "2"
-                    },
-                    {
-                        "value": "3",
-                        "label": "3 - Unsure"
-                    },
-                    {
-                        "value": "4",
-                        "label": "4"
-                    },
-                    {
-                        "value": "5",
-                        "label": "5 - Certainly"
-                    }
-                ]
-            },
-            {
-                "type": "long_text",
-                "label": "How do you feel today about yourself and the state of the world?",
-                "name": "feeling"
-            }
-           ]     
-            },
-            {
-              "type": "finish",
-              "name" : "Thank you",
-              "content" : "Thank You!",
-              "showResults": false,
-              "writeResults": true,
-              "questionnaire": [
-                 {
-                     "type": "number",
-                     "label": "*What's your age in years?",
-                     "name": "age",
-                     "min": 0,
-                     "max": 100,
-                     "default": 0
-                 },
-                 {
-                     "type": "options",
-                     "name": "gender",
-                     "label": "*How would you identify yourself (gender)?",
-                     "response": [
-                         {
-                             "value": "female",
-                             "label": "Female"
-                         },
-                         {
-                             "value": "male",
-                             "label": "Male"
-                         },
-                         {
-                             "value": "other",
-                             "label": "Other"
-                         }
-                     ]
-                 },
-                 {
-                     "type": "text",
-                     "label": "*What's your nationality?",
-                     "name": "nationality"
-                 },
-                 {
-                     "type": "likert",
-                     "label": "How skilled are you with computers?",
-                     "name": "video_games",
-                     "response": [
-                         {
-                             "value": "1",
-                             "label": "1 - Not at all"
-                         },
-                         {
-                             "value": "2",
-                             "label": "2"
-                         },
+                "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
+              ]         
+            ],
+            "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_3_merged.mp4"
+          },
+          {
+            "type": "videopq",
+            "id" : "subject_x",
+            "name" : "Page 3 of Y",
+            "content" : "Antwoord de onderstaande vragen over deze video.",
+            "question" : "",
+            "stimuli": [
+              [
+                "C1",
+                "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
+              ]         
+            ],
+            "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_5_merged.mp4"
+          },
+          {
+            "type": "videopq",
+            "id" : "subject_x",
+            "name" : "Page 4 of Y",
+            "content" : "Antwoord de onderstaande vragen over deze video.",
+            "question" : "",
+            "stimuli": [
+              [
+                "C1",
+                "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
+              ]         
+            ],
+            "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_7_merged.mp4"
+          },
+          {
+            "type": "videopq",
+            "id" : "subject_x",
+            "name" : "Page 5 of Y",
+            "content" : "Antwoord de onderstaande vragen over deze video.",
+            "question" : "",
+            "stimuli": [
+              [
+                "C1",
+                "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
+              ]         
+            ],
+            "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_8_merged.mp4"
+          },
+          {
+            "type": "videopq",
+            "id" : "subject_x",
+            "name" : "Page 6 of Y",
+            "content" : "Antwoord de onderstaande vragen over deze video.",
+            "question" : "",
+            "stimuli": [
+              [
+                "C1",
+                "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
+              ]         
+            ],
+            "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_10_merged.mp4"
+          },
+          {
+            "type": "videopq",
+            "id" : "subject_x",
+            "name" : "Page 7 of Y",
+            "content" : "Antwoord de onderstaande vragen over deze video.",
+            "question" : "",
+            "stimuli": [
+              [
+                "C1",
+                "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
+              ]         
+            ],
+            "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_12_merged.mp4"
+          },
+          {
+            "type": "videopq",
+            "id" : "subject_x",
+            "name" : "Page 8 of Y",
+            "content" : "Antwoord de onderstaande vragen over deze video.",
+            "question" : "",
+            "stimuli": [
+              [
+                "C1",
+                "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
+              ]         
+            ],
+            "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_13_merged.mp4"
+          },
+          {
+            "type": "videopq",
+            "id" : "subject_x",
+            "name" : "Page 9 of Y",
+            "content" : "Antwoord de onderstaande vragen over deze video.",
+            "question" : "",
+            "stimuli": [
+              [
+                "C1",
+                "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
+              ]         
+            ],
+            "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_14_merged.mp4"
+          },
+          {
+            "type": "videopq",
+            "id" : "subject_x",
+            "name" : "Page 10 of Y",
+            "content" : "Antwoord de onderstaande vragen over deze video.",
+            "question" : "",
+            "stimuli": [
+              [
+                "C1",
+                "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
+              ]         
+            ],
+            "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_15_merged.mp4"
+          },
+        {
+            "type": "finish",
+            "name" : "Thank you",
+            "content" : "Thank You!",
+            "showResults": false,
+            "writeResults": true,
+            "questionnaire": [
+                {
+                    "type": "number",
+                    "label": "*What's your age in years?",
+                    "name": "age",
+                    "min": 0,
+                    "max": 100,
+                    "default": 0
+                },
+                {
+                    "type": "options",
+                    "name": "gender",
+                    "label": "*How would you identify yourself (gender)?",
+                    "response": [
+                        {
+                            "value": "female",
+                            "label": "Female"
+                        },
+                        {
+                            "value": "male",
+                            "label": "Male"
+                        },
+                        {
+                            "value": "other",
+                            "label": "Other"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "label": "*What's your nationality?",
+                    "name": "nationality"
+                },
+                {
+                    "type": "likert",
+                    "label": "How skilled are you with computers?",
+                    "name": "video_games",
+                    "response": [
+                        {
+                            "value": "1",
+                            "label": "1 - Not at all"
+                        },
+                        {
+                            "value": "2",
+                            "label": "2"
+                        },
 
-                         {
-                             "value": "4",
-                             "label": "4 - Moderately"
-                         },
-                         {
-                             "value": "5",
-                             "label": "5"
-                         },
-                         {
-                             "value": "6",
-                             "label": "6"
-                         },
-                         {
-                             "value": "7",
-                             "label": "7 - Extremely"
-                         }
-                     ]
-                 },
-                 {
-                     "type": "long_text",
-                     "label": "How do you feel today about yourself and the state of the world?",
-                     "name": "feeling"
-                 }
-                ]
+                        {
+                            "value": "4",
+                            "label": "4 - Moderately"
+                        },
+                        {
+                            "value": "5",
+                            "label": "5"
+                        },
+                        {
+                            "value": "6",
+                            "label": "6"
+                        },
+                        {
+                            "value": "7",
+                            "label": "7 - Extremely"
+                        }
+                    ]
+                },
+                {
+                    "type": "long_text",
+                    "label": "How do you feel today about yourself and the state of the world?",
+                    "name": "feeling"
+                }
+            ]
             }
     ],
-    "remoteFailService": "/fail"
+    "remoteFailService": "/fail",
+    "videoQuestionnaire":[
+        {
+            "type": "likert",
+            "label": "Denk je, op basis van de reacties van de persoon in beeld, dat er iets vreemds gezegd werd?",
+            "name": "communication_breakdown",
+            "response": [
+                {
+                    "value": "1",
+                    "label": "1 - Helemaal niet"
+                },
+                {
+                    "value": "2",
+                    "label": "2"
+                },
+                {
+                    "value": "3",
+                    "label": "3 - Noch niet, noch wel"
+                },
+                {
+                    "value": "4",
+                    "label": "4"
+                },
+                {
+                    "value": "5",
+                    "label": "5 - Helemaal wel"
+                }
+            ]
+        },
+        {
+            "type": "likert",
+            "label": "Hoe zeker ben je hiervan?",
+            "name": "certainty",
+            "response": [
+                {
+                    "value": "1",
+                    "label": "1 - Absoluut niet zeker"
+                },
+                {
+                    "value": "2",
+                    "label": "2"
+                },
+                {
+                    "value": "3",
+                    "label": "3 - Niet zeker, niet onzeker"
+                },
+                {
+                    "value": "4",
+                    "label": "4"
+                },
+                {
+                    "value": "5",
+                    "label": "5 - Absoluut zeker"
+                }
+            ]
+        },
+        {
+            "type": "likert",
+            "label": "Lachte de persoon in beeld?",
+            "name": "laugh",
+            "response": [
+                {
+                    "value": "1",
+                    "label": "Ja"
+                },
+                {
+                    "value": "2",
+                    "label": "Nee"
+                }
+            ]
+        },
+        {
+            "type": "likert",
+            "label": "Fronste de persoon in beeld?",
+            "name": "frown",
+            "response": [
+                {
+                    "value": "1",
+                    "label": "Ja"
+                },
+                {
+                    "value": "2",
+                    "label": "Nee"
+                }
+            ]
+        },
+        {
+            "type": "likert",
+            "label": "Keek de persoon in beeld verward?",
+            "name": "confusion",
+            "response": [
+                {
+                    "value": "1",
+                    "label": "Ja"
+                },
+                {
+                    "value": "2",
+                    "label": "Nee"
+                }
+            ]
+        },
+        {
+            "type": "likert",
+            "label": "Keek de persoon in beeld gefrustreerd?",
+            "name": "frustration",
+            "response": [
+                {
+                    "value": "1",
+                    "label": "Ja"
+                },
+                {
+                    "value": "2",
+                    "label": "Nee"
+                }
+            ]
+        },
+        {
+            "type": "likert",
+            "label": "Keek de persoon in beeld verbaasd?",
+            "name": "surprise",
+            "response": [
+                {
+                    "value": "1",
+                    "label": "Ja"
+                },
+                {
+                    "value": "2",
+                    "label": "Nee"
+                }
+            ]
+        },
+        {
+            "type": "likert",
+            "label": "Keek de persoon in beeld weg?",
+            "name": "lookaway",
+            "response": [
+                {
+                    "value": "1",
+                    "label": "Ja"
+                },
+                {
+                    "value": "2",
+                    "label": "Nee"
+                }
+            ]
+        }
+       ]
 }
