@@ -43,7 +43,7 @@ def configs(test_id: str, user_id: str):
     data["testId"] = test_id
     return data
 
-@app.get("/data/{folder_id}/{video_id}")
+@app.get("/data/videos/{folder_id}/{video_id}")
 def data(folder_id: str, video_id: str):
     return FileResponse("/data/videos/"+folder_id+"/"+video_id)
 
