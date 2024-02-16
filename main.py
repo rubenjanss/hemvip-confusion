@@ -146,7 +146,7 @@ def index(
 
     if not status:
         blocked = db.status.find(
-            {"status": {"$in": ["DONE", "ACTIVE"]}, "testId": test_id}
+            {"status": {"$in": ["ACTIVE"]}, "testId": test_id}
         )
         blocked_files = [x["experiment_file"] for x in blocked]
 
