@@ -175,4 +175,4 @@ def index(
 
 @app.get("/version", response_class=PlainTextResponse)
 def version():
-    return PlainTextResponse("v0.0")
+    return PlainTextResponse("v0.1")
