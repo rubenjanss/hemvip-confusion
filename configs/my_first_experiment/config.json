@@ -36,119 +36,119 @@
               ]         
             ],
             "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_3_merged.mp4"
-          },
-          {
+        },
+        {
             "type": "videopq",
             "id" : "subject_3",
             "name" : "Page 3 of Y",
             "content" : "Antwoord de onderstaande vragen over deze video.",
             "question" : "",
             "stimuli": [
-              [
+                [
                 "C1",
                 "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
-              ]         
+                ]         
             ],
             "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_5_merged.mp4"
-          },
-          {
+        },
+        {
             "type": "videopq",
             "id" : "subject_4",
             "name" : "Page 4 of Y",
             "content" : "Antwoord de onderstaande vragen over deze video.",
             "question" : "",
             "stimuli": [
-              [
+                [
                 "C1",
                 "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
-              ]         
+                ]         
             ],
             "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_7_merged.mp4"
-          },
-          {
+        },
+        {
             "type": "videopq",
             "id" : "subject_5",
             "name" : "Page 5 of Y",
             "content" : "Antwoord de onderstaande vragen over deze video.",
             "question" : "",
             "stimuli": [
-              [
+                [
                 "C1",
                 "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
-              ]         
+                ]         
             ],
             "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_8_merged.mp4"
-          },
-          {
+        },
+        {
             "type": "videopq",
             "id" : "subject_6",
             "name" : "Page 6 of Y",
             "content" : "Antwoord de onderstaande vragen over deze video.",
             "question" : "",
             "stimuli": [
-              [
+                [
                 "C1",
                 "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
-              ]         
+                ]         
             ],
             "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_10_merged.mp4"
-          },
-          {
+        },
+        {
             "type": "videopq",
             "id" : "subject_7",
             "name" : "Page 7 of Y",
             "content" : "Antwoord de onderstaande vragen over deze video.",
             "question" : "",
             "stimuli": [
-              [
+                [
                 "C1",
                 "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
-              ]         
+                ]         
             ],
             "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_12_merged.mp4"
-          },
-          {
+        },
+        {
             "type": "videopq",
             "id" : "subject_8",
             "name" : "Page 8 of Y",
             "content" : "Antwoord de onderstaande vragen over deze video.",
             "question" : "",
             "stimuli": [
-              [
+                [
                 "C1",
                 "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
-              ]         
+                ]         
             ],
             "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_13_merged.mp4"
-          },
-          {
+        },
+        {
             "type": "videopq",
             "id" : "subject_9",
             "name" : "Page 9 of Y",
             "content" : "Antwoord de onderstaande vragen over deze video.",
             "question" : "",
             "stimuli": [
-              [
+                [
                 "C1",
                 "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
-              ]         
+                ]         
             ],
             "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_14_merged.mp4"
-          },
-          {
+        },
+        {
             "type": "videopq",
             "id" : "subject_10",
             "name" : "Page 10 of Y",
             "content" : "Antwoord de onderstaande vragen over deze video.",
             "question" : "",
             "stimuli": [
-              [
+                [
                 "C1",
                 "https://socrob.ugent.be/miscom/videos/interaction_1_utterance_1_merged.mp4"
-              ]         
+                ]         
             ],
             "videoUrl" : "/data/videos/2023-04-18 17-53-18/interaction_1_utterance_15_merged.mp4"
-          },
+        },
         {
             "type": "finish",
             "name" : "Thank you",

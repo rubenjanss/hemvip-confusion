@@ -45,11 +45,7 @@ def configs(test_id: str, user_id: str):
 
 @app.get("/data/videos/{folder_id}/{video_id}")
 def data(folder_id: str, video_id: str):
-    if os.path.isfile("/data/videos/"+folder_id+"/"+video_id):
-        return FileResponse("/data/videos/"+folder_id+"/"+video_id)
-    else:
-        return FileResponse("https://socrob.ugent.be/miscom/videos/"+video_id)
-
+    return FileResponse("/data/videos/"+folder_id+"/"+video_id)
 
 @app.post("/fail")
 def fail(user_id=Form(...), test_id=Form(...), sessionJSON=Form(...)):
